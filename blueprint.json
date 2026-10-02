@@ -1,0 +1,14 @@
+{
+  "name": "Calendly \u2192 Notion CRM + Auto-Onboarding \u2014 6 APIs",
+  "description": "Calendly Webhook \u2192 Notion Create Page \u2192 Gemini Welcome Email \u2192 Gmail + Calendar + Slack + Sheets",
+  "modules": [
+    "Calendly: Watch Events (Calendly API Webhook) OR Forms: Watch Responses (Mock)",
+    "Notion: Create Database Item (Notion API)",
+    "Gemini: Generate Personalized Welcome Email (Gemini API + MCP + LangChain)",
+    "Gmail: Send Welcome Email (Gmail API)",
+    "Calendar: Create Event (Calendar API)",
+    "Slack: Alert #onboarding (Slack API)",
+    "Sheets: Log Onboarding (Sheets API)"
+  ],
+  "note": "Notion Database ID + Internal Integration Token needed. Prompt: Client {{Name}} booked {{Event Type}} for goal {{Goal}}. Write personalized welcome email."
+}
